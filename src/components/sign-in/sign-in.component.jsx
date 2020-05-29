@@ -5,7 +5,7 @@ import { signInWithGoogle } from '../../firebase/firebase.utils';
 import './sign-in.styles.scss';
 
 
-class Signin extends React.Component {
+class SignIn extends React.Component {
 	constructor(props) {
 		super(props)
 
@@ -63,4 +63,4 @@ class Signin extends React.Component {
 	}
 }
 
-export default Signin;
+export default SignIn;

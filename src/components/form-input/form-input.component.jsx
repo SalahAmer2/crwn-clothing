@@ -1,7 +1,7 @@
 import React from 'react';
 import './form-input.styles.scss';
 
-const FromInput = ({handleChange, label, ...otherProps}) => (
+const FormInput = ({handleChange, label, ...otherProps}) => (
     <div className='group'>
         <input className='form-input' onChange={handleChange} {...otherProps} />
         {
@@ -18,4 +18,4 @@ const FromInput = ({handleChange, label, ...otherProps}) => (
     </div>
 )
 
-export default FromInput;
+export default FormInput;
